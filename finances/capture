@@ -1,0 +1,8 @@
+for jahr in 2012 2013 2014 2015; do
+ mkdir $jahr
+ for n in `cat gliederungen-nrs`; do
+  echo -n "$jahr:$n "
+  wget -nv "http://finanzen.piratenpartei.de/guv.php?bk=$n&jahr=$jahr" -O $jahr/$n.txt
+ done
+done
+

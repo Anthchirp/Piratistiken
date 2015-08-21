@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="de">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Piraten-Haushalt - GUV</title>
+<link rel="shortcut icon" href="/favicon.ico" >
+<link rel="stylesheet" type="text/css" href="/css/piraten.css">
+</head>
+<body>
+<div id="titel"><a id="top" name="top"></a>
+<h1>Piraten-Haushalt - Einnahmen und Ausgaben</h1>
+<a href="/"><img src="/img/Piratenlogo.png" alt="Piratenlogo" width="80" height="79"> </a>
+</div>
+
+<div id="cont">
+<div id="nav">
+<a href='/index.php?bk=8&jahr=2015' title='Piraten-Haushalt online'>Piraten-Haushalt online</a><a title='Piraten-Haushalt - GUV'>Einnahmen und Ausgaben</a><a href='/bilanz.php?bk=8&jahr=2015' title='Piraten-Haushalt - Bilanz'>Verm&ouml;gen / Verbindlichkeiten</a><a href='/kosten.php?bk=8&jahr=2015' title='Ausgaben nach Kosten'>Ausgaben nach Kosten</a><a href='/statistik.php?bk=8&jahr=2015' title='Mitgliederstatistik'>Mitgliederstatistik</a><a href=https://flattr.com/submit/auto?user_id=Piratenpartei&title=Piraten-Haushalt-online&popout=1&url=http://finanzen.piratenpartei.de&tags=Verwaltung,Finanzen&language=de_DE>
+<img align='right' src='https://www.piratenpartei.de/wp-content/plugins/flattr/img/flattr-badge-large.png'></a>
+</div>   <!-- nav -->
+<form action="/guv.php" method="GET">
+<p class="fl">
+Gliederung
+<select size="1"  name="bk">
+<option value=2 >2 LV Bayern</option>
+<option value=30 >..30 BV Mittelfranken</option>
+<option value=31 >..31 KV Erlangen /Erlangen-Höchstadt</option>
+<option value=32 >..32 KV Fürth & Fürth Land</option>
+<option value=33 >..33 KV Nürnberg</option>
+<option value=34 >..34 KV Nürnberg-Land</option>
+<option value=36 >..36 BV Oberbayern</option>
+<option value=126 >..126 KV Ansbach</option>
+<option value=223 >..223 KV Weißenburg-Gunzenhausen</option>
+<option value=3 >3 LV Berlin</option>
+<option value=4 >4 LV Brandenburg</option>
+<option value=53 >..53 KV Havelland</option>
+<option value=59 >..59 KV Teltow-Fläming</option>
+<option value=159 >..159 KV Prignitz-Ruppin</option>
+<option value=5 >5 LV Bremen</option>
+<option value=62 >..62 KV Bremen-Stadt</option>
+<option value=6 >6 LV Hamburg</option>
+<option value=63 >..63 BV Hamburg-Bergedorf</option>
+<option value=64 >..64 BV Hamburg-Harburg</option>
+<option value=158 >..158 BV Hamburg-Nord</option>
+<option value=209 >..209 BV Hamburg-Eimsbüttel</option>
+<option value=210 >..210 BV Hamburg-Altona</option>
+<option value=211 >..211 BV Hamburg-Mitte</option>
+<option value=8 selected>8 LV Mecklenburg-Vorpommern</option>
+<option value=9 >9 LV Niedersachsen</option>
+<option value=10 >10 LV Nordrhein-Westfalen</option>
+<option value=11 >11 LV Rheinland-Pfalz</option>
+<option value=12 >12 LV Saarland</option>
+<option value=13 >13 LV Sachsen</option>
+<option value=14 >14 LV Sachsen-Anhalt</option>
+<option value=15 >15 LV Schleswig-Holstein</option>
+<option value=194 >..194 KV Rendsburg-Eckernförde</option>
+<option value=225 >..225 KV Kiel</option>
+<option value=16 >16 LV Thüringen</option>
+<option value=121 >..121 KV Erfurt</option>
+<option value=122 >..122 KV Jena</option>
+<option value=132 >..132 KV Ilm-Kreis</option>
+<option value=134 >..134 KV Altenburg</option>
+<option value=135 >..135 KV Gera</option>
+<option value=136 >..136 KV Schmalkalden-Meiningen</option>
+<option value=137 >..137 KV Gotha</option>
+<option value=138 >..138 KV Wartburgkreis</option>
+<option value=202 >..202 KV Weimar</option>
+<option value=17 >17 Bund</option>
+</select>
+Jahr<select size="1"  name="jahr">
+<option selected  value='2015'>2015</option>
+<option  value='2014'>2014</option>
+<option  value='2013'>2013</option>
+<option  value='2012'>2012</option>
+</select>
+<p><input class="button" type="submit" value="Anzeigen"></p></form>
+<table><tr><th colspan = '2'>Einnahmen</th><th>Betrag in &euro;</th></tr>
+<tr><td>1.</td><td>Mitgliedsbeiträge</td><td class='r '>656,80 &euro;</td></tr>
+<tr><td>2.</td><td>Mandatsträgerbeiträge und ähnliche regelmäßige Beiträge</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>3.</td><td>Spenden von natürlichen Personen</td><td class='r '>118,60 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Geldspenden bis 3.300,00 EUR</td><td class='r subz2'>20,00 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Aufwandsspenden nat&uuml;rlicher Personen durch Forderungsverzicht</td><td class='r subz2'>38,60 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>zweckgebundene Geldspenden nat&uuml;rlicher Personen</td><td class='r subz2'>60,00 &euro;</td></tr>
+<tr><td>4.</td><td>Spenden von juristischen Personen</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>5.</td><td>Einnahmen aus Unternehmenstätigkeit und Beteiligungen</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>6.</td><td>Einnahmen aus sonstigem Vermögen (Zinsen)</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>7.</td><td>Einnahmen aus Veranstaltungen, Vertrieb von Druckschriften und Veröffentlichungen und sonstiger mit Einnahmen verbundener Tätigkeit</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>8.</td><td>staatliche Mittel</td><td class='r '>1.590,86 &euro;</td></tr>
+<tr><td>9.</td><td>sonstige Einnahmen</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>10.</td><td>Zuschüsse von Gliederungen</td><td class='r '>0,00 &euro;</td></tr>
+<tr class='b'><td>11.</td><td>Gesamteinnahmen</td><td class='r '>2.366,26 &euro;</td></tr>
+<tr><th colspan = '2'>Ausgaben</th><th>Betrag in &euro;</th></tr>
+<tr><td>1.</td><td>Personalausgaben</td><td class='r '>0,00 &euro;</td></tr>
+<tr><td>2.</td><td>Sachausgaben Gesamt 2a bis 2f</td><td class='r '>2.222,88 &euro;</td></tr>
+<tr class='suba'><td></td><td class='sub1'>a) des laufenden Geschäftsbetriebes</td><td class='r subz1'>1.753,14 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Miete einschlie&szlig;lich Nebenkosten</td><td class='r subz2'>804,36 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Wartung BGA / Mieten / Leasing</td><td class='r subz2'>25,00 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Reisekosten</td><td class='r subz2'>155,50 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Porto</td><td class='r subz2'>18,60 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Telefon / IT</td><td class='r subz2'>109,82 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Nebenkosten des Geldverkehrs</td><td class='r subz2'>4,00 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Abschreibungen</td><td class='r subz2'>635,86 &euro;</td></tr>
+<tr class='suba'><td></td><td class='sub1'>b) Ausgaben für allgemeine politische Arbeit</td><td class='r subz1'>469,74 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>&Ouml;ffentlichkeitsarbeit</td><td class='r subz2'>169,74 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Veranstaltungen</td><td class='r subz2'>300,00 &euro;</td></tr>
+<tr class='suba'><td></td><td class='sub1'>c) Ausgaben für Wahlkämpfe</td><td class='r subz1'>0,00 &euro;</td></tr>
+<tr class='suba'><td></td><td class='sub1'>d) Ausgaben für die Vermögensverwaltung einschließlich sich hieraus ergebender Zinsen</td><td class='r subz1'>0,00 &euro;</td></tr>
+<tr class='suba'><td></td><td class='sub1'>e) Ausgaben für sonstige Zinsen</td><td class='r subz1'>0,00 &euro;</td></tr>
+<tr class='suba'><td></td><td class='sub1'>f) Sonstige Ausgaben</td><td class='r subz1'>0,00 &euro;</td></tr>
+<tr><td>3.</td><td>Zuschüsse an Gliederungen</td><td class='r '>1.384,70 &euro;</td></tr>
+<tr class='sub'><td></td><td class='sub2'>Zusch&uuml;sse an Bundespartei</td><td class='r subz2'>1.384,70 &euro;</td></tr>
+<tr class='b'><td>4.</td><td>Gesamtausgaben</td><td class='r '>3.607,58 &euro;</td></tr>
+</table>
+</div> <!-- cont -->
+<div id="footer">
+<p class="fl"><a class="t" href="#top">Nach oben</a></p>
+Fragen, Ergänzungen, sonstiges am besten an die Verwaltungsliste oder <a style="white-space: nowrap;" class="mail" href="mailto:lothar.krauss&#64;piratenpartei.de" title="lothar.krauss&#64;piratenpartei.de" >per Mail</a>
+<p class="fr"><a href="https://www.piratenpartei.de/inhaltsuebersicht/impressum/">Impressum</a> </p>
+</div>
+</body>
+</html>
